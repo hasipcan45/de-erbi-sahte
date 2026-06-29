@@ -10,6 +10,8 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import AdminDashboard from "./pages/AdminDashboard";
+import Reports from "./pages/Reports";
+import Subscriptions from "./pages/Subscriptions";
 
 export default function App() {
   return (
@@ -22,6 +24,8 @@ export default function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
             <Route path="/admin/*" element={<AdminDashboard />} />
+            <Route path="/accounts/reports" element={<Reports />} />
+            <Route path="/accounts/subscriptions" element={<Subscriptions />} />
             {/* Fallback */}
             <Route path="*" element={<Home />} />
           </Routes>
