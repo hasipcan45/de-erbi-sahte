@@ -1,0 +1,6 @@
+{
+  "name": "Değer Biç",
+  "description": "Profesyonel taşınmaz değerleme ve analiz platformu. Konut, arsa ve ticari gayrimenkulleriniz için güvenilir raporlar alın.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
